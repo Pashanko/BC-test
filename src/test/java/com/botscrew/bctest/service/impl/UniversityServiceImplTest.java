@@ -156,7 +156,6 @@ public final class UniversityServiceImplTest {
 
     @Test
     public void searchGlobalSuccess() {
-        // Create test data
         Lector lector1 = Lector.builder().full_name("John Doe").build();
         Lector lector2 = Lector.builder().full_name("Jane Smith").build();
         Lector lector3 = Lector.builder().full_name("Michael Johnson").build();
